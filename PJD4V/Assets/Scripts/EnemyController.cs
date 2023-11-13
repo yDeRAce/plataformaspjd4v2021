@@ -13,6 +13,7 @@ public class EnemyController : MonoBehaviour
     public bool shouldFlip;
     
     [SerializeField] private Vector2 movePosition;
+    
     [SerializeField] private Transform moveDestination;
     
     private Vector2 _initialPosition;
